@@ -7,7 +7,7 @@ export default [
 	{
 		input: 'src/main.js',
 		output: {
-			name: 'howLongUntilLunch',
+			name: pkg.browser__name,
 			file: pkg.browser,
 			format: 'umd'
 		},
